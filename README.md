@@ -21,4 +21,4 @@ O desafio é criar uma solução para que consuma os arquivos disponibilizados e
 &emsp;&emsp;● Para concluir, os arquivos tratados anteriormente estão sendo escritos em um diretório público, também no <b>Amazon S3 Bucket</b> em formato <b>.parquet</b> e de forma particionada por: <b>"event_key"</b>, <b>"year"</b>, <b>"month"</b> e <b>"day"</b>
 
 <h3>Como Usar:</h3>
-Para que todos consigam usar a resolução do desafio, no repositório está sendo disponibilizado dois arquivos, um referente ao notebook e o outro referente ao ambiente no Databricks, para que seja possível testar o código, deverá ser usado o arquivo referente ao ambiente do Databricks, porque como mencionado acima, está sendo usado <b>pyspark</b> sendo assim nem todos ambientes (como por exemplo Google Colab) possuem pyspark disponível de forma nativa.
+Para que todos consigam usar a resolução do desafio, no repositório está sendo disponibilizado dois arquivos, um referente ao notebook e o outro referente ao ambiente no Databricks, para que seja possível testar o código é simples, basta importar os arquivos no ambiente do Databricks e executar.
